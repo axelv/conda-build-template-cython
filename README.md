@@ -34,7 +34,7 @@ This is similar to [simple-cython-example](https://github.com/thearn/simple-cyth
 
 For completeness, a minimal Cython-based example library is included, containing examples of things such as absolute cimports, subpackages, [NumPyDoc](https://github.com/numpy/numpy/blob/master/doc/HOWTO_DOCUMENT.rst.txt) style docstrings, and using [memoryviews](http://cython.readthedocs.io/en/latest/src/userguide/memoryviews.html) for passing arrays (for the last two, see [compute.pyx](mylibrary/compute.pyx)). The example in the [test/](test/) subdirectory demonstrates usage of the example library after it is installed.
 
-A pruned-down version of setup.py for pure Python projects, called [`setup-purepython.py`](setup-purepython.py), is also provided for comparison.
+A pruned-down version of setup.py for pure Python projects, called [`setup-purepython.py`](setup.py), is also provided for comparison.
 
 
 #### Features
